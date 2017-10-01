@@ -24,7 +24,7 @@ html, body {
 }
 
 #name {font-size: 24px;
-	font-weight: bold;
+		font-weight: bold;
 		color: white;
 		font-family: 'Georgia', Times, Times New Roman, serif;
 		background-color: #4aaaa5;
@@ -43,7 +43,7 @@ html, body {
 }
 
 #about {box-sizing: border-box;
-	background-color: white;
+		background-color: white;
 		width: 650px;
 		height: auto;
 		line-height: 200%;
@@ -272,26 +272,26 @@ SMALL Media Queries*/
 		font-size: 18px;
 	}
 	#header {
+		box-sizing: flex;
 		width: 100%;
-		height: 80px;
-
+		height: 90px;
 	}
 	#name {
 		box-sizing: border-box;
 		width: 100%;
 		height: 45px;
-		font-size: 10px;
+		font-size: 17px;
 		text-align: center;
+		padding: 14px;
+		
 	}
 	#navlinks {
 		box-sizing: border-box;
 		width: 100%;
 		height: 35px;
-		font-size: 14px;
+		font-size: 15px;
 		text-align: center;
-		padding: 10px;
-
-		
+		padding: 10px;	
 	}	
 	#wrapper {
 		width: 315px;
